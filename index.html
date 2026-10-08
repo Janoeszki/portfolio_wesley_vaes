@@ -9,14 +9,40 @@
     <script src="https://kit.fontawesome.com/bca2e15faf.js" crossorigin="anonymous"></script>
     
     <style>
+        body {
+            background-color: black;
+            color: white; 
+        }
+        
+        h1,
+        h2, 
+        h3 
+        {
+            color:white;
+        }
+        
+       .navbar.sticky-top.navbar-expand-lg {
+            background-color: #3d444db3;
+       }
 
+       .navbar.sticky-top.navbar-expand-lg .nav-link,
+       .navbar.sticky-top.navbar-expand-lg .navbar-brand,
+       .navbar.sticky-top.navbar-expand-lg .dropdown-toggle
+       {
+        color: white;
+       }
+       
+       footer {
+        background-color: #3d444db3;
+        text-decoration: none;
+       }
     </style>
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
-            <h1 class="navbar-brand" href="#"><i class="fa-solid fa-dice-d20"></i><i class="fa-solid fa-hat-wizard"></i> Wesley Vaes</h1>
+            <h1 class="navbar-brand"><i class="fa-solid fa-dice-d20"></i><i class="fa-solid fa-hat-wizard"></i> Wesley Vaes</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,7 +50,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Over mij</a>
+                        <a class="nav-link active" aria-current="page" href="#aboutme">Over mij</a>
                     </li>
                     
                     <li class="nav-item">
@@ -32,7 +58,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projecten</a>
+                        <a class="nav-link" href="#projects">Projecten</a>
                     </li>
                     
                     <li class="nav-item dropdown">
@@ -70,12 +96,12 @@
         </div>
     </navbar>  -->
 
-<hero>
-    <h1>Full Stack & AI Automation Developer in Training</h1>
+<section class="hero">
+    <h1 id="aboutme">Full Stack & AI Automation Developer in Training</h1>
     <p>Ik bouw schaalbare webapplicaties en slimme geautomatiseerde workflows met PHP/Laravel, Angular, JS en AI Agents.</p>
-</hero>
+</section>
 
-<skills>
+<section class="skills">
     <h1 id="skills">Skills & Tools
     
     <div class="card" style="width: 18rem;">
@@ -117,13 +143,12 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
     </div>
-</skills>
+</section>
 
-<projects>
-    <h1>Projecten & Opdrachten</h1>
+<section class="projects">
+    <h1 id="projects">Projecten & Opdrachten</h1>
     <h2>Projecten</h2>
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -139,16 +164,16 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-</projects>
+</section>
 
-<educatie>
-    <h1>Educatie & Traject</h1>
+<section class="educatie">
+    <h1 id="education">Educatie & Traject</h1>
     <p>
         tekst
     </p>
-</educatie>
+</section>
 
-<footer class="navbar bg-body-tertiary">
+<footer class="navbar">
     <ul class="nav flex-row">
         <li class="nav-item">
             <a href="https://github.com/Janoeszki" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
@@ -167,6 +192,7 @@
         </li>
     </ul>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 * **Frontend:** JavaScript (ES6+), Angular, Tailwind CSS
 * **Backend:** PHP (OOP), Laravel

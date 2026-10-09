@@ -70,14 +70,17 @@
         
         h1,
         h2,
-        h3 {
+        h3,
+        p {
         color: white;
         font-family: "Iosevka Charon Mono", monospace;
+        padding-left: 16px;
         }
         
        .navbar.sticky-top.navbar-expand-lg {
-        background-color: #181c22;
+        background-color: black;
         flex-direction: row;
+        justify-content: space-evenly;
        }
 
        .navbar.sticky-top.navbar-expand-lg .nav-link,
@@ -86,9 +89,29 @@
        {
         color: white;
        }
+
+       .navbar.sticky-top.navbar-expand-lg {
+        border-bottom: 1px solid #31373d;
+       }
+
+        @media { (min-width: 992px)
+        }
+
+        .navbar-expand-lg .navbar-nav {
+        width: 100%;
+        justify-content: space-evenly;
+        }
        
        .navbar-toggler {
         background-color: white;
+       }
+
+       .dropdown-menu.show {
+        background-color: #25292e;
+       }
+
+       .dropdown-item {
+        color: white;
        }
 
         .skills {
@@ -100,20 +123,38 @@
         .skill-cards {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
         gap: 1rem;
         }
         
         .card {
         flex-direction: column;
+        background-color: #25292e;
+        color: white;
         }
 
         .card-text {
         align-items: flex-start;
         }
 
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
         .footer-item {
-        background-color: #3d444db3;
+        justify-content: flex-start;
         text-decoration: none;
+        }
+
+        footer .nav {
+        gap: 1rem;
+        border-top: 1px solid #25292e;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         }
     </style>
 </head>
@@ -143,21 +184,19 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">
-                                <a href="https://github.com/Janoeszki" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <li>
+                                <a class="dropdown-item" href="https://github.com/Janoeszki" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                             </li>
                             
-                            <li><a class="dropdown-item" href="#"></a>
-                                <a href="https://www.linkedin.com/in/wesleyvaes404" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                            <li>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/wesleyvaes404" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                             </li>
                            
-                            <li><a class="dropdown-item" href="#">
-                                <a href="tel:+32471488376"><i class="fa-solid fa-mobile-button"></i> +32 (4) 71 48 83 76</a>
-                                </a>
+                            <li>
+                                <a class="dropdown-item" href="tel:+32471488376"><i class="fa-solid fa-mobile-button"></i> +32 (4) 71 48 83 76</a>
                             </li>
                             
-                            <li><a class="dropdown-item" href="#"></a>
-                                <a href="mailto:wesleyvaes@outlook.be"><i class="fa-regular fa-envelope"></i> wesleyvaes@outlook.be</a>
+                            <li><a class="dropdown-item" href="mailto:wesleyvaes@outlook.be"><i class="fa-regular fa-envelope"></i> wesleyvaes@outlook.be</a>
                             </li>
                         </ul>
                     </li>

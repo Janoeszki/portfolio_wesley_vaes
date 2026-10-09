@@ -94,13 +94,12 @@
         border-bottom: 1px solid #31373d;
        }
 
-        @media { (min-width: 992px)
-        }
-
+       @media (min-width: 992px) {
         .navbar-expand-lg .navbar-nav {
-        width: 100%;
-        justify-content: space-evenly;
+          width: 100%;
+          justify-content: space-evenly;
         }
+       }
        
        .navbar-toggler {
         background-color: white;
@@ -133,8 +132,25 @@
         color: white;
         }
 
+        .card-body {
+        border: 1px solid #31373d;
+        border-radius: 4px;
+        }
+
         .card-text {
         align-items: flex-start;
+        padding-left: 0px
+        }
+
+        .project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1rem;
+        }
+
+        li {
+        margin-left: 1rem;
         }
 
         a {
@@ -229,7 +245,6 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="fa-solid fa-code"></i> Frontend</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
     </div>
 
@@ -237,7 +252,6 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="fa-solid fa-database"></i></i> Backend</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
     </div>
 
@@ -245,7 +259,6 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="fa-solid fa-brain"></i><i class="fa-solid fa-gears"></i> AI & Automation</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
     </div>
 
@@ -260,7 +273,6 @@
                 <li>
                 Git / GitHub Version Control
                 </li>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
     </div>
     </div>
@@ -269,6 +281,7 @@
 <section class="projects">
     <h1 id="projects">Projecten & Opdrachten</h1>
     <h2>Projecten</h2>
+    <div class="project-cards">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -276,8 +289,9 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-
+    </div>
     <h2>In ontwikkeling</h2>
+    <div class="project-cards">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title"><i class="fa-solid fa-dragon"></i></h5>
@@ -285,6 +299,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
+    </div>    
 </section>
 
 <section class="educatie">

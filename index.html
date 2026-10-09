@@ -75,12 +75,16 @@
         color: white;
         font-family: "Iosevka Charon Mono", monospace;
         padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 10px;
         }
         
        .navbar.sticky-top.navbar-expand-lg {
         background-color: black;
         flex-direction: row;
         justify-content: space-evenly;
+        padding-top: 0px;
+        padding-bottom: 0px;
        }
 
        .navbar.sticky-top.navbar-expand-lg .nav-link,
@@ -90,7 +94,15 @@
         color: white;
        }
 
-       .navbar.sticky-top.navbar-expand-lg {
+        .navbar.sticky-top.navbar-expand-lg .nav-link:hover,
+        .navbar.sticky-top.navbar-expand-lg .nav-link:focus-visible,
+        .navbar.sticky-top.navbar-expand-lg .dropdown-item:hover,
+        .navbar.sticky-top.navbar-expand-lg .dropdown-item:focus-visible {
+        color: #8ab4f8;
+        border: 2px solid;
+        border-radius: 4px;
+        }
+        .navbar.sticky-top.navbar-expand-lg {
         border-bottom: 1px solid #31373d;
        }
 
@@ -101,17 +113,29 @@
         }
        }
        
+       /* smartphone/breakpoint button */
        .navbar-toggler {
         background-color: white;
        }
 
        .dropdown-menu.show {
         background-color: #25292e;
+        border: 1px solid #31373d;
+        border-radius: 4px;
        }
 
        .dropdown-item {
         color: white;
+        width: auto;
        }
+
+        .dropdown-item:hover,
+        .dropdown-item:focus-visible {
+        color: #8ab4f8;
+        background-color: transparent;
+        border: 2px solid;
+        border-radius: 4px;
+        }
 
         .skills {
         display: flex;
@@ -154,8 +178,8 @@
         }
 
         a {
-            text-decoration: none;
-            color: white;
+        text-decoration: none;
+        color: white;
         }
 
         .footer-item {
@@ -171,6 +195,13 @@
         align-items: center;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        }
+
+        footer .nav a:hover,
+        footer .nav a:focus-visible {
+        color: #8ab4f8;
+        border: 2px solid;
+        border-radius: 4px;
         }
     </style>
 </head>
@@ -223,10 +254,61 @@
  
 <section class="hero">
     <h1 id="aboutme">Full Stack & AI Automation Developer in Training</h1>
-    <p>Ik bouw schaalbare webapplicaties en slimme geautomatiseerde workflows met PHP/Laravel, Angular, JS en AI Agents.</p>
+    <p>Gedreven developer met een passie voor schaalbare databases, strakke webapps (PHP/Laravel & Angular) en geavanceerde AI Agent Orchestration.</p>
 </section>
 
 <section class="skills">
+    <div>
+        <h1 id="skills">Skills & Tools</h1>
+    </div>
+    <div>
+        <h2>Beheersde Skills & Tools bij aanvang stage</h2>
+    </div>
+    <div class="skill-cards">
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-code"></i> Frontend</h5>
+                <li>JavaScript (JS)</li>
+                <li>Angular</li>
+            </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-database"></i></i> Backend</h5>
+                <li>PHP (OOP)</li>
+                <li>Laravel (basiskennis)</li>
+                <li>Databases
+                    <ul>
+                        <li>Ontwerp</li>
+                        <li>Normalisatie</li>
+                        <li>SQL / MySQL / Relatieve databestanden</li>
+                    </ul>
+                </li>
+                <li>API's & REST-integratie</li>
+            </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-brain"></i><i class="fa-solid fa-gears"></i> AI & Automation</h5>
+                <li>AI Automation</li>
+                <li>Agent Orchestration & Harnessing</li>
+                <li>Forward Deployed Engineering</li>
+            </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-chart-diagram"></i> Methodologie</h5>
+                <li>Agile & Scrum</li>
+                <li>Prince2</li>
+            </div>
+    </div>
+    </div>
+
+<!--
+ <section class="skills">
     <div>
         <h1 id="skills">Skills & Tools</h1>
     </div>
@@ -261,14 +343,14 @@
             </div>
     </div>
 
-    <!-- Methodologie: Agile, Scrum, Git / GitHub Version Control. -->
-    <!-- Methode: Een concrete, vaste manier van handelen om een doel te bereiken (bijvoorbeeld een enquête afnemen).
+    Methodologie: Agile, Scrum, Git / GitHub Version Control.
+    Methode: Een concrete, vaste manier van handelen om een doel te bereiken (bijvoorbeeld een enquête afnemen).
     Methodiek: Een samenhangend geheel van verschillende methoden of een overkoepelende aanpak.
-    Methodologie: De theorie en de wetenschappelijke onderbouwing achter die methoden. -->
+    Methodologie: De theorie en de wetenschappelijke onderbouwing achter die methoden.
+
     <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Methodologie</h5>
-                <p class="card-text">Methodieken:</p>
                 <li>
                 Git / GitHub Version Control
                 </li>
@@ -313,10 +395,11 @@
             </div>
     </div>
 
-    <!-- Methodologie: Agile, Scrum, Git / GitHub Version Control. -->
-    <!-- Methode: Een concrete, vaste manier van handelen om een doel te bereiken (bijvoorbeeld een enquête afnemen).
+     Methodologie: Agile, Scrum, Git / GitHub Version Control.
+     Methode: Een concrete, vaste manier van handelen om een doel te bereiken (bijvoorbeeld een enquête afnemen).
     Methodiek: Een samenhangend geheel van verschillende methoden of een overkoepelende aanpak.
-    Methodologie: De theorie en de wetenschappelijke onderbouwing achter die methoden. -->
+    Methodologie: De theorie en de wetenschappelijke onderbouwing achter die methoden.
+
     <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title"><i class="fa-solid fa-chart-diagram"></i> Methodologie</h5>
@@ -326,7 +409,8 @@
     </div>
     </div>
 
-</section>
+</section> 
+-->
 
 <section class="projects">
     <h1 id="projects">Projecten & Opdrachten</h1>

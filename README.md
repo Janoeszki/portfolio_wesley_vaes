@@ -1,4 +1,4 @@
-#  [Portfolio Vaes Wesley]
+#  Portfolio Vaes Wesley
 
 >Portfolio voor stage-aanvragen voltijdse dagopleiding Full Stack & AI Automation Developer aan SyntraPXL.
 

@@ -27,5 +27,5 @@
 
 1. **Clone de repository:**
    ```bash
-   git clone [https://github.com/Janoeszki/portfolio_wesley_vaes2]
-   cd portfolio_wesley_vaes2
+   git clone [https://github.com/Janoeszki/portfolio_wesley_vaes]
+   cd portfolio_wesley_vaes

@@ -6,7 +6,7 @@
 
 ##  Tech Stack & Tools
 
-* **Frontend:**: JavaScript, CSS
+* **Frontend:**: CSS
 * **Project Management & Git:**: Git Branching Workflow
 
 ---

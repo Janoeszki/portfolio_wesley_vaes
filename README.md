@@ -6,7 +6,7 @@
 
 ##  Tech Stack & Tools
 
-* **Frontend:**: JavaScript (ES6+), CSS
+* **Frontend:**: JavaScript, CSS
 * **Project Management & Git:**: Git Branching Workflow
 
 ---
@@ -17,6 +17,8 @@
 - [x] Integrated CSS-styling
 - [X] Card-format Skills & Projecten 
 - [x] Overzicht stage-periode
+- [ ] Aanvulling Projects - Work in Progress
+- [ ] Verder aanvullen Projects!
 - [ ] Aanvulling educatie (overloop Syntraopleiding?)
 
 ---

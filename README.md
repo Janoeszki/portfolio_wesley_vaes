@@ -6,7 +6,7 @@
 
 ##  Tech Stack & Tools
 
-* **Frontend:**: JavaScript (ES6+), CSS
+* **Frontend:**: CSS
 * **Project Management & Git:**: Git Branching Workflow
 
 ---
@@ -17,7 +17,9 @@
 - [x] Integrated CSS-styling
 - [X] Card-format Skills & Projecten 
 - [x] Overzicht stage-periode
-- [] Aanvulling educatie (overloop Syntraopleiding?)
+- [ ] Aanvulling Projects - Work in Progress
+- [ ] Verder aanvullen Projects!
+- [ ] Aanvulling educatie (overloop Syntraopleiding?)
 
 ---
 
@@ -25,5 +27,5 @@
 
 1. **Clone de repository:**
    ```bash
-   git clone [https://github.com/Janoeszki/portfolio_wesley_vaes2]
-   cd portfolio_wesley_vaes2
+   git clone [https://github.com/Janoeszki/portfolio_wesley_vaes]
+   cd portfolio_wesley_vaes

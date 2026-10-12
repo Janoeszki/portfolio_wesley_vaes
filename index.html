@@ -23,16 +23,12 @@
         h1,
         h2,
         h3,
-        h4,
-        h5,
         p {
-        color: white;
-        font-family: "Open Sans", monospace;
         padding-left: 16px;
         margin-top: 16px;
         margin-bottom: 10px;
         }
-        
+
        .navbar.sticky-top.navbar-expand-lg {
         background-color: black;
         flex-direction: row;
@@ -106,6 +102,7 @@
         .badge {
         background-color: green;
         color: white;
+        margin-right: 6px;
         }
 
         .skills {
@@ -168,7 +165,7 @@
 
         .intern-periods ul {
         margin: 0;
-        padding-left: 1.5rem;
+        padding-left: 14px;
         border: 1px solid #31373d;
         border-radius: 4px;
         background-color:#25292e;
@@ -201,6 +198,14 @@
         .vr-text {
         color: white;
         margin-left: 1rem;
+        }
+
+        .educatie h4, .educatie h5 {
+        padding-left: 16px;    
+        }
+
+        .d-flex {
+        gap: 30px;
         }
 
         .footer-item {
@@ -390,7 +395,7 @@
     <h3>2016 - 2018</h3>
     <h4>Educatieve Bachelor: Lerarenopleiding (Secundair Onderwijs)</h4>
     <h5>132 verworven Studiepunten</h5>
-    <div class="d-flex" style="height: 169px;">
+    <div class="d-flex" style="height: auto;">
         <div class="vr"></div>
         <div class="vr-text">
             <li>Microsoft Office
@@ -407,10 +412,10 @@
     <h3>2018 - 2022</h3>
     <h4>Educatieve Bachelor: Lerarenopleiding (Kleuteronderwijs)</h4>
     <h5>93 verworven Studiepunten</h5>
-    <div class="d-flex" style="height: 200px;">
+    <div class="d-flex" style="height: auto;">
         <div class="vr"></div>
         <div class="vr-text">
-            <li>Microsoft Office (Word, Excel, PowerPoint, Outlook)</li>
+            <li>Coaching (basis)</li>
             <li>Planmatig werken</li>
         </div>
     </div>
@@ -418,17 +423,18 @@
     <h3>2022 - 2023</h3>
     <h4>Professionele Bachelor: Sociaal Werk (Maatschappelijk Werk)</h4>
     <h5>38 verworven Studiepunten</h5>
-    <div class="d-flex" style="height: 200px;">
+    <div class="d-flex" style="height: auto;">
         <div class="vr"></div>
         <div class="vr-text">
-            <li>Telefoon-etiquette</li>
+            <li>Telefoon-etiquette (basis)</li>
+            <li>Gepaste handelingen in conflictsituaties</li>
         </div>
     </div>
 
     <h3>Oktober 2023 - Februari 2025 (Voltijds)</h3>
     <h4>Bpost Group</h4>
     <h5>Commercieel Medewerker - Interventieteam, Cluster Mol</h5>
-    <div class="d-flex" style="height: 200px;">
+    <div class="d-flex" style="height: auto;">
         <div class="vr"></div>
         <div class="vr-text">
             <li>Klantgerichtheid</li>
@@ -440,7 +446,7 @@
     <h3>Augustus 2025 - April 2026 (Voltijds)</h3>
     <h4>WEngage Hasselt</h4>
     <h5>Adviseur Onroerende Voorheffing, Verkeersbelasting & immoweb</h5>
-    <div class="d-flex" style="height: 200px;">
+    <div class="d-flex" style="height: auto;">
         <div class="vr"></div>
         <div class="vr-text">
             <li>Administratieve dossieropvolging</li>
@@ -452,119 +458,95 @@
 
     <h3>21/09/2026</h3>
     <h4>SyntraPXL</h4>
-    <div class="d-flex" style="height: 200px;">
-        <div class="vr">haha</div>
-    </div>
-    
-    <div class="skills">
-    <div class="skill-cards">
-    <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><i class="fa-solid fa-code"></i> Frontend</h5>
-                <li>JavaScript (JS)
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 0%">0%</div>
-                    </div> 
-                </li>
-               
-                <li>Angular
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 0%">0%</div>
-                    </div> 
-                </li>
-            </div>
-    </div>
+    <div class="d-flex" style="height:auto;">
+        <div class="vr"></div>
+        <div class="vr-text">
+            <li>Frontend Skills</li>
+            <ul>
+                <li>JavaScript (JS)</li>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 0%">0%</div>
+                </div>
 
-    <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><i class="fa-solid fa-database"></i></i> Backend</h5>
-                <li>PHP (OOP)
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
+                <li>Angular</li>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 0%">0%</div>
+                </div>
+            </ul>
+        </div>
+        
+        <div class="vr-text">
+            <li>Backend Skills</li>
+                <ul>
+                    <li>PHP (OOP)</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
                     </div>
-                </li>
-               
-                <li>Laravel (basiskennis)
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
+
+                    <li>Laravel (basiskennis)</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
                     </div>
-                </li>
-                
-                <li>Databases
+
+                    <li>Databases</li>
                     <ul>
-                        <li>Ontwerp
-                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 25%">25%</div>
-                            </div>
-                        </li>
-                        
-                        <li>Normalisatie
-                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 25%">25%</div>
-                            </div>
-                        </li>
-                        
-                        <li>SQL / MySQL / Relatieve databestanden
-                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 25%">25%</div>
-                            </div>
-                        </li>
+                        <li>Ontwerp</li>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 10%">10%</div>
+                        </div>
+
+                        <li>Normalisatie</li>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%">75%</div>
+                        </div>
+
+                        <li>SQL/ MySQL / Relatieve databestanden</li>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 5%">5%</div>
+                        </div>
                     </ul>
-                </li>
-                
-                <li>API's & REST-integratie
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
+                    <li>API's & REST-integratie</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
+                    </div> 
+                </ul>
             </div>
-    </div>
+                
+            <div class="vr-text">
+                <li>AI & Automation Skills</li>
+                <ul>
+                    <li>AI Automation</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
+                    </div>
 
-    <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><i class="fa-solid fa-brain"></i><i class="fa-solid fa-gears"></i> AI & Automation</h5>
-                <li>AI Automation
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <li>Agent Orchestration & Harnessing</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
+                    </div> 
+
+                    <li>Forward Deployed Engineering</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
+                    </div> 
+                </ul>
+        
+                <li>Methodologie Skills</li>
+                <ul>
+                    <li>Agile & Scrum</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                         <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
-                
-                <li>Agent Orchestration & Harnessing
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
-                
-                <li>Forward Deployed Engineering
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
+                    </div> 
+
+                    <li>Prince2</li>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 0%">0%</div>
+                    </div> 
+                </ul>
             </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"><i class="fa-solid fa-chart-diagram"></i> Methodologie</h5>
-                <li>Agile & Scrum
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
-                
-                <li>Prince2
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 25%">25%</div>
-                    </div>
-                </li>
-            </div>
-    </div>
-    </div>
-    </div>
 
 
-
-    <!-- <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="50">
+    <!-- <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar" style="width: 0%"></div>
     </div> 
     

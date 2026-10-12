@@ -16,7 +16,8 @@
 - [x] Flexible viewstate (desktop & smartphone) voor gehele webpagina
 - [x] Integrated CSS-styling
 - [X] Card-format Skills & Projecten 
-- [ ] Overzicht stage-periode
+- [x] Overzicht stage-periode
+- [] Aanvulling educatie (overloop Syntraopleiding?)
 
 ---
 

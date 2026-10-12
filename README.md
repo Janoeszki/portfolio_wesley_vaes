@@ -12,14 +12,19 @@
 ---
 
 ##  Belangrijkste Functionaliteiten
-
+Completed
 - [x] Flexible viewstate (desktop & smartphone) voor gehele webpagina
 - [x] Integrated CSS-styling
-- [X] Card-format Skills & Projecten 
+- [x] Card-format Skills & Projecten
 - [x] Overzicht stage-periode
-- [ ] Aanvulling Projects - Work in Progress
-- [ ] Verder aanvullen Projects!
-- [ ] Aanvulling educatie (overloop Syntraopleiding?)
+- [x] Educatie & Traject
+- [x] Projecten (in ontwikkeling) => 'Work-In-Progress' markering
+
+In Progress
+- [ ] Educatie & Traject In accordion plaatsen 
+
+Yet to start
+- [ ] Projecten in carousel (multiple items) maken
 
 ---
 

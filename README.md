@@ -17,7 +17,7 @@
 - [x] Integrated CSS-styling
 - [X] Card-format Skills & Projecten 
 - [x] Overzicht stage-periode
-- [] Aanvulling educatie (overloop Syntraopleiding?)
+- [ ] Aanvulling educatie (overloop Syntraopleiding?)
 
 ---
 

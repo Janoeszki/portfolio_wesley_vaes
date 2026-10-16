@@ -62,6 +62,14 @@
           justify-content: space-evenly;
         }
        }
+
+       @media (min-width: 600px) {
+        .header {grid-area: 1 / span 6;}
+        .menu {grid-area: 2 / span 1;}
+        .content {grid-area: 2 / span 4;}
+        .facts {grid-area: 2 / span 1;}
+        .footer {grid-area: 3 / span 6;}
+        }
        
        /* smartphone/breakpoint button */
        .navbar-toggler {

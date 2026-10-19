@@ -1,6 +1,6 @@
 #  Portfolio Vaes Wesley
 
->Portfolio voor stage-aanvragen voltijdse dagopleiding Full Stack & AI Automation Developer aan SyntraPXL.
+> Portfolio for intern-requests for the fulltime day education Full Stack & AI Automation Developer at SyntraPXL.
 
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
-##  Belangrijkste Functionaliteiten
+##  Important Functionalities 
 * CSS 
    * Flexible viewstate (desktop & smartphone)
       * smartphone: 600px breakpoint added

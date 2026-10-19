@@ -200,6 +200,36 @@
         gap: 30px;
         }
 
+        :root {
+        --bs-accordion-color: white;
+        --bs-accordion-bg: #25292e;
+        --bs-accordion-border-color: #31373d;
+        --bs-accordion-border-width: 1px;
+        --bs-accordion-border-radius: 4px;
+        --bs-accordion-btn-color: white;
+        --bs-accordion-btn-bg: #25292e;
+        --bs-accordion-active-color: white;
+        --bs-accordion-active-bg: #25292e;
+        }
+
+        .accordion-item {
+        color: white;
+        background-color: #25292e;
+        border: 1px solid #31373d;
+        margin-left: 16px;
+        padding-left:8px;
+        }
+
+        .accordion-button {
+        color: white;
+        background-color: #25292e;
+        }
+
+        .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: #25292e;
+        }
+
         .footer-item {
         justify-content: flex-start;
         text-decoration: none;

@@ -210,6 +210,10 @@
         --bs-accordion-btn-bg: #25292e;
         --bs-accordion-active-color: white;
         --bs-accordion-active-bg: #25292e;
+        
+        /* Nagaan op Bootstrap hoe dit exact werkt, lijkt niet te functioneren? */
+        /* --accordion-transition-duration: .15s;
+        --accordion-transition-timing: ease-in-out; */
         }
 
         .accordion-item {

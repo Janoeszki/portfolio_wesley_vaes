@@ -23,7 +23,9 @@
    * Card-format
       * Styling in card-format for 'Skills & Tools' & 'Projecten & Opdrachten'
 
+   * Accordion-format
+      * Styling in accordions for 'Educatie & Traject' section
+
 ### To Do
-* 'Education & Traject' in accordian format
-* 'Projects & Opdrachten' in carousel (multiple items) format
+* 'Projects & Opdrachten' in carousel (multiple items) format => Flex-start atm
    * Adding additional created projects & assignments to section

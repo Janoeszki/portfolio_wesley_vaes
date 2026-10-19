@@ -129,8 +129,9 @@
         .project-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         gap: 1rem;
+        margin-left: 16px;
         }
 
         .card-image {

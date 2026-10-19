@@ -203,7 +203,7 @@
         .accordion-item {
         color: white;
         background-color: #25292e;
-        border: 1px solid #31373d;
+        border: 0.5px solid #31373d;
         margin-left: 16px;
         padding-left:8px;
         max-width: 600px

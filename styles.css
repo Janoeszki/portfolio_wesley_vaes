@@ -79,6 +79,12 @@
         border-radius: 4px;
         }
 
+        .badge {
+        background-color: green;
+        color: white;
+        margin-right: 6px;
+        }
+
         .btn {
         background-color: #0d6efd;
         color: white;
@@ -89,12 +95,6 @@
         background-color: #213556;
         border: 2px solid;
         border-radius: 4px;
-        }
-        
-        .badge {
-        background-color: green;
-        color: white;
-        margin-right: 6px;
         }
 
         .skills {

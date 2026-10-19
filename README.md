@@ -6,31 +6,24 @@
 
 ##  Tech Stack & Tools
 
-* **Frontend:**: CSS
-* **Project Management & Git:**: Git Branching Workflow
+* **Frontend:** CSS
+* **Project Management & Git:** Git Branching Workflow & GitHub Pages
 
 ---
 
 ##  Belangrijkste Functionaliteiten
-Completed
-- [x] Flexible viewstate (desktop & smartphone) voor gehele webpagina
-- [x] Integrated CSS-styling
-- [x] Card-format Skills & Projecten
-- [x] Overzicht stage-periode
-- [x] Educatie & Traject
-- [x] Projecten (in ontwikkeling) => 'Work-In-Progress' markering
+* CSS 
+   * Flexible viewstate (desktop & smartphone)
+      * smartphone: 600px breakpoint added
+      * large desktop screen: 992px breakpoint added
+   
+   * Creation of styles.css file for seperation of code & styling
+      * Learned that ordering <links> is important!
 
-In Progress
-- [ ] Educatie & Traject In accordion plaatsen 
+   * Card-format
+      * Styling in card-format for 'Skills & Tools' & 'Projecten & Opdrachten'
 
-Yet to start
-- [ ] Projecten in carousel (multiple items) maken
-
----
-
-### Installatiestappen
-
-1. **Clone de repository:**
-   ```bash
-   git clone [https://github.com/Janoeszki/portfolio_wesley_vaes]
-   cd portfolio_wesley_vaes
+### To Do
+* 'Education & Traject' in accordian format
+* 'Projects & Opdrachten' in carousel (multiple items) format
+   * Adding additional created projects & assignments to section

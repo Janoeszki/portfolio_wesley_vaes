@@ -1,0 +1,223 @@
+    body {
+        background-color: black;
+        color: white;
+        font-family: "Open Sans", monospace;
+        }
+        
+        h1,
+        h2,
+        h3,
+        p {
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+        color: white;
+        }
+
+       .navbar.sticky-top.navbar-expand-lg {
+        background-color: black;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 0px;
+        padding-bottom: 0px;
+       }
+
+       .navbar.sticky-top.navbar-expand-lg .nav-link,
+       .navbar.sticky-top.navbar-expand-lg .navbar-brand,
+       .navbar.sticky-top.navbar-expand-lg .dropdown-toggle
+       {
+        color: white;
+       }
+
+        .navbar.sticky-top.navbar-expand-lg .nav-link:hover,
+        .navbar.sticky-top.navbar-expand-lg .nav-link:focus-visible,
+        .navbar.sticky-top.navbar-expand-lg .dropdown-item:hover,
+        .navbar.sticky-top.navbar-expand-lg .dropdown-item:focus-visible {
+        color: #8ab4f8;
+        border: 2px solid;
+        border-radius: 4px;
+        }
+        .navbar.sticky-top.navbar-expand-lg {
+        border-bottom: 1px solid #31373d;
+       }
+
+       @media (min-width: 600px) {
+        .navbar-expand-lg .navbar-nav {
+          width: 100%;
+          justify-content: space-evenly;
+        }
+       }
+
+       @media (min-width: 992px) {
+        .navbar-expand-lg .navbar-nav {
+          width: 100%;
+          justify-content: space-evenly;
+        }
+       }
+       
+       /* smartphone/breakpoint button */
+       .navbar-toggler {
+        background-color: white;
+       }
+
+       .dropdown-menu.show {
+        background-color: #25292e;
+        border: 1px solid #31373d;
+        border-radius: 4px;
+       }
+
+       .dropdown-item {
+        color: white;
+        width: auto;
+       }
+
+        .dropdown-item:hover,
+        .dropdown-item:focus-visible {
+        color: #8ab4f8;
+        background-color: transparent;
+        border: 2px solid;
+        border-radius: 4px;
+        }
+
+        .badge {
+        background-color: green;
+        color: white;
+        margin-right: 6px;
+        }
+
+        .btn {
+        background-color: #0d6efd;
+        color: white;
+        }
+
+        .btn:hover {
+        color: rgb(187, 186, 186);
+        background-color: #213556;
+        border: 2px solid;
+        border-radius: 4px;
+        }
+
+        .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+
+        .skill-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1rem;
+        }
+        
+        .card {
+        flex-direction: column;
+        background-color: #25292e;
+        color: white;
+        }
+
+        .card-body {
+        border: 1px solid #31373d;
+        border-radius: 4px;
+        }
+
+        .card-text {
+        align-items: flex-start;
+        padding-left: 0px
+        }
+
+        .project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1rem;
+        }
+
+        .card-image {
+        max-width: auto;
+        margin-bottom: 10px;
+        }
+        .project-cards .card-body {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .project-cards .btn-primary {
+        margin-top: auto;
+        align-self: flex-start;
+        }
+
+        .intern-periods {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2rem;
+        padding-left: 16px;
+        }
+
+        .intern-periods ul {
+        margin: 0;
+        padding-left: 14px;
+        border: 1px solid #31373d;
+        border-radius: 4px;
+        background-color:#25292e;
+        padding-right: 14px;
+        }
+
+        li {
+        margin-left: 1rem;
+        }
+
+        a {
+        text-decoration: none;
+        color: white;
+        }
+
+        .progress {
+        width: auto;
+        margin: 4px;
+        }
+
+        .progress-bar {
+        color: #000000;
+        font-weight: bold;
+        }
+
+        .vr {
+        margin-left: 1.5rem;
+        }
+
+        .vr-text {
+        color: white;
+        margin-left: 1rem;
+        }
+
+        .educatie h4, .educatie h5 {
+        padding-left: 16px;    
+        }
+
+        .d-flex {
+        gap: 30px;
+        }
+
+        .footer-item {
+        justify-content: flex-start;
+        text-decoration: none;
+        }
+
+        footer .nav {
+        gap: 1rem;
+        border-top: 1px solid #25292e;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        }
+
+        footer .nav a:hover,
+        footer .nav a:focus-visible {
+        color: #8ab4f8;
+        border: 2px solid;
+        border-radius: 4px;
+        }

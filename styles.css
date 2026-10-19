@@ -183,23 +183,6 @@
         font-weight: bold;
         }
 
-        .vr {
-        margin-left: 1.5rem;
-        }
-
-        .vr-text {
-        color: white;
-        margin-left: 1rem;
-        }
-
-        .educatie h4, .educatie h5 {
-        padding-left: 16px;    
-        }
-
-        .d-flex {
-        gap: 30px;
-        }
-
         :root {
         --bs-accordion-color: white;
         --bs-accordion-bg: #25292e;

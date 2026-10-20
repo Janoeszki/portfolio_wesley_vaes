@@ -80,6 +80,7 @@
         width: auto;
         border: 2px solid transparent;
         border-radius: 4px;
+        padding: 0px 6px 4px 0px;
        }
 
         .dropdown-item:hover,

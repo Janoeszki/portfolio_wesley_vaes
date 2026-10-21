@@ -233,8 +233,6 @@
         margin-left: 16px;
         padding-left:8px;
         max-width: 546px
-        display: flex;
-        justify-content: center;
         }
 
         .accordion-button {

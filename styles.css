@@ -8,6 +8,8 @@
         h2,
         h3,
         p {
+        display: flex;
+        justify-content: center;
         padding-left: 16px;
         margin-top: 16px;
         margin-bottom: 10px;
@@ -113,13 +115,13 @@
         .skills {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         }
 
         .skill-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         gap: 1rem;
         }
         
@@ -142,7 +144,7 @@
         .project-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 1rem;
         margin-left: 16px;
         }
@@ -164,7 +166,7 @@
         .intern-periods {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         gap: 2rem;
         padding-left: 16px;
         }
@@ -176,6 +178,11 @@
         border-radius: 4px;
         background-color:#25292e;
         padding-right: 14px;
+        
+        }
+
+        .intern-periods p {
+        margin: 2px;
         }
 
         li {
@@ -213,6 +220,12 @@
         --accordion-transition-timing: ease-in-out; */
         }
 
+        .accordion {
+        justify-content: center;
+        margin-right: 30px;
+        margin-left:30px;
+        }
+
         .accordion-item {
         color: white;
         background-color: #25292e;
@@ -220,6 +233,8 @@
         margin-left: 16px;
         padding-left:8px;
         max-width: 546px
+        display: flex;
+        justify-content: center;
         }
 
         .accordion-button {
@@ -233,7 +248,7 @@
         }
 
         .footer-item {
-        justify-content: flex-start;
+        justify-content: center;
         text-decoration: none;
         }
 

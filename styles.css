@@ -236,6 +236,11 @@
         width: 626px;
         }
 
+        .accordion-header {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        }
+
         /* screen < 600px => accordion zal kleiner afgebeeld worden om niet hele scherm in te nemen! */
         @media (max-width: 600px) {
         .accordion-item {

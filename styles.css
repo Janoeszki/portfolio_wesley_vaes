@@ -236,7 +236,7 @@
         width: 626px;
         }
 
-        /* < 600px => accordion zal kleiner afgebeeld worden om niet hele scherm in te nemen! */
+        /* screen < 600px => accordion zal kleiner afgebeeld worden om niet hele scherm in te nemen! */
         @media (max-width: 600px) {
         .accordion-item {
         width: 75%;

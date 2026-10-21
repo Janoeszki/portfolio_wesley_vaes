@@ -51,14 +51,14 @@
         border-bottom: 1px solid #31373d;
        }
 
-       @media (min-width: 600px) {
+       @media (max-width: 600px) {
         .navbar-expand-lg .navbar-nav {
           width: 100%;
           justify-content: space-evenly;
         }
        }
 
-       @media (min-width: 992px) {
+       @media (max-width: 992px) {
         .navbar-expand-lg .navbar-nav {
           width: 100%;
           justify-content: space-evenly;
@@ -221,18 +221,19 @@
         }
 
         .accordion {
-        justify-content: center;
-        margin-right: 316px;
-        margin-left:316px;
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
         }
 
         .accordion-item {
         color: white;
         background-color: #25292e;
         border: 0.5px solid #31373d;
-        margin-left: 16px;
         padding-left:8px;
-        max-width: 546px
+        width: 626px;
         }
 
         .accordion-button {

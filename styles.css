@@ -16,6 +16,16 @@
         color: white;
         }
 
+        .line {
+        border-top: #31373d solid 1px;
+        margin-top: 50px;
+        margin-left: 150px;
+        padding-left: 0px;
+        margin-bottom: 10px;
+        margin-right: 150px;
+        border-top-width: 1px;
+        }
+
         .avatar-img {
         border-radius: 30px;
         margin-right: 5px;

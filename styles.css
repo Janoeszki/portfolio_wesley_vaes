@@ -258,6 +258,10 @@
         text-decoration: none;
         }
 
+        footer.navbar {
+        padding-top: 69px;
+        }
+
         footer .nav {
         gap: 1rem;
         border-top: 1px solid #25292e;

@@ -201,16 +201,6 @@
         color: white;
         }
 
-        .progress {
-        width: auto;
-        margin: 4px;
-        }
-
-        .progress-bar {
-        color: #000000;
-        font-weight: bold;
-        }
-
         :root {
         --bs-accordion-color: white;
         --bs-accordion-bg: #25292e;
@@ -254,16 +244,7 @@
         width: 75%;
         }
         }
-        .accordion-body p {
-          border: white solid;
-          border-radius: 60px;
-          display: inline-flex;
-          justify-content: flex-start;
-          flex-direction: row;
-          max-width: fit-content;
-          width: 30px;
-          height: 30px;
-        }
+        
         .accordion-button {
         color: white;
         background-color: #25292e;

@@ -255,6 +255,12 @@
         background-color: #25292e;
         }
 
+        .accordion-body .badge {
+          background-color: #0d6efd;
+          color: white;
+          margin-right: 6px;
+        }
+
         .footer-item {
         justify-content: center;
         text-decoration: none;

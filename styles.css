@@ -10,7 +10,6 @@
         p {
         display: flex;
         justify-content: center;
-        padding-left: 16px;
         margin-top: 16px;
         margin-bottom: 10px;
         color: white;
@@ -37,6 +36,7 @@
         justify-content: space-evenly;
         padding-top: 0px;
         padding-bottom: 0px;
+        padding-left: 16px;
        }
 
        .navbar.sticky-top.navbar-expand-lg .nav-link,
@@ -59,13 +59,6 @@
 
         .navbar.sticky-top.navbar-expand-lg {
         border-bottom: 1px solid #31373d;
-       }
-
-       @media (max-width: 600px) {
-        .navbar-expand-lg .navbar-nav {
-          width: 100%;
-          justify-content: space-evenly;
-        }
        }
 
        @media (max-width: 992px) {
@@ -120,6 +113,10 @@
         background-color: #213556;
         border: 2px solid;
         border-radius: 4px;
+        }
+
+        .hero p {
+          margin-left: 16px;
         }
 
         .skills {
@@ -257,7 +254,16 @@
         width: 75%;
         }
         }
-
+        .accordion-body p {
+          border: white solid;
+          border-radius: 60px;
+          display: inline-flex;
+          justify-content: flex-start;
+          flex-direction: row;
+          max-width: fit-content;
+          width: 30px;
+          height: 30px;
+        }
         .accordion-button {
         color: white;
         background-color: #25292e;

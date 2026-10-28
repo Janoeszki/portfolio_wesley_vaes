@@ -14,14 +14,13 @@
 ##  Important Functionalities 
 * CSS 
    * Flexible viewstate (desktop & smartphone)
-      * smartphone: 600px breakpoint added
       * large desktop screen: 992px breakpoint added
    
    * Creation of styles.css file for seperation of code & styling
       * Learned that ordering <links> is important!
 
    * Card-format
-      * Styling in card-format for 'Skills & Tools' & 'Projecten & Opdrachten'
+      * Styling in card-format for 'Skills & Tools' & 'Projecten & Opdrachten' sections
 
    * Accordion-format
       * Styling in accordions for 'Educatie & Traject' section

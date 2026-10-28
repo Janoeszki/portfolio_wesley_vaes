@@ -99,7 +99,23 @@
         background-color: green;
         color: white;
         margin-right: 6px;
-        }
+        --bs-badge-padding-x: 0.65em;
+        --bs-badge-padding-y: 0.35em;
+        --bs-badge-font-size: 0.75em;
+        --bs-badge-font-weight: 700;
+        --bs-badge-color: #fff;
+        --bs-badge-border-radius: var(--bs-border-radius);
+        display: inline-block;
+        padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+        font-size: var(--bs-badge-font-size);
+        font-weight: var(--bs-badge-font-weight);
+        line-height: 1;
+        color: var(--bs-badge-color);
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: var(--bs-badge-border-radius);
+    }
 
         .btn {
         background-color: #0d6efd;
@@ -260,6 +276,94 @@
           color: white;
           margin-right: 6px;
         }
+
+        .badge-u {
+          background-color: grey;
+          color: white;
+          margin-right: 6px;
+          --bs-badge-padding-x: 0.65em;
+          --bs-badge-padding-y: 0.35em;
+          --bs-badge-font-size: 0.75em;
+          --bs-badge-font-weight: 700;
+          --bs-badge-color: #fff;
+          --bs-badge-border-radius: var(--bs-border-radius);
+          display: inline-block;
+          padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+          font-size: var(--bs-badge-font-size);
+          font-weight: var(--bs-badge-font-weight);
+          line-height: 1;
+          color: var(--bs-badge-color);
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: var(--bs-badge-border-radius);
+      }
+
+      .badge-t {
+          background-color: orangered;
+          color: white;
+          margin-right: 6px;
+          --bs-badge-padding-x: 0.65em;
+          --bs-badge-padding-y: 0.35em;
+          --bs-badge-font-size: 0.75em;
+          --bs-badge-font-weight: 700;
+          --bs-badge-color: #fff;
+          --bs-badge-border-radius: var(--bs-border-radius);
+          display: inline-block;
+          padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+          font-size: var(--bs-badge-font-size);
+          font-weight: var(--bs-badge-font-weight);
+          line-height: 1;
+          color: var(--bs-badge-color);
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: var(--bs-badge-border-radius);
+      }
+
+      .badge-e {
+          background-color: #0d6efd;
+          color: white;
+          margin-right: 6px;
+          --bs-badge-padding-x: 0.65em;
+          --bs-badge-padding-y: 0.35em;
+          --bs-badge-font-size: 0.75em;
+          --bs-badge-font-weight: 700;
+          --bs-badge-color: #fff;
+          --bs-badge-border-radius: var(--bs-border-radius);
+          display: inline-block;
+          padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+          font-size: var(--bs-badge-font-size);
+          font-weight: var(--bs-badge-font-weight);
+          line-height: 1;
+          color: var(--bs-badge-color);
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: var(--bs-badge-border-radius);
+      }
+
+      .badge-m {
+          background-color: purple;
+          color: white;
+          margin-right: 6px;
+          --bs-badge-padding-x: 0.65em;
+          --bs-badge-padding-y: 0.35em;
+          --bs-badge-font-size: 0.75em;
+          --bs-badge-font-weight: 700;
+          --bs-badge-color: #fff;
+          --bs-badge-border-radius: var(--bs-border-radius);
+          display: inline-block;
+          padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+          font-size: var(--bs-badge-font-size);
+          font-weight: var(--bs-badge-font-weight);
+          line-height: 1;
+          color: var(--bs-badge-color);
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: var(--bs-badge-border-radius);
+      }
 
         .footer-item {
         justify-content: center;

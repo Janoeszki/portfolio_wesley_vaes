@@ -1,22 +1,33 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: "Open Sans", monospace;
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: "Open Sans", system-ui, -apple-system, sans-serif;
+}
+
+section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 h1,
-h2,
+h2 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
 p {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    margin-bottom: 10px;
-    color: white;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #c9d1d9;
+    max-width: 72ch;
+    line-height: 1.6;
 }
 
 .line {
-    border-top: #31373d solid 1px;
-    margin: 50px 150px 10px;
+    border-top: 1px solid #31373d;
+    margin: 48px 0 24px;
 }
 
 .avatar-img {
@@ -25,7 +36,7 @@ p {
 }
 
 .navbar.sticky-top.navbar-expand-lg {
-    background-color: black;
+    background-color: #0d1117;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0 0 0 16px;
@@ -34,7 +45,7 @@ p {
 
 .navbar.sticky-top.navbar-expand-lg .nav-link,
 .navbar.sticky-top.navbar-expand-lg .navbar-brand {
-    color: white;
+    color: #e6edf3;
 }
 
 .navbar.sticky-top.navbar-expand-lg .nav-link,
@@ -64,19 +75,19 @@ footer .nav a:focus-visible {
 
 /* smartphone/breakpoint button */
 .navbar-toggler {
-    background-color: white;
+    background-color: #e6edf3;
 }
 
 .dropdown-menu.show {
-    background-color: #25292e;
+    background-color: #161b22;
     border: 1px solid #31373d;
     border-radius: 4px;
 }
 
 .dropdown-item {
-    color: white;
+    color: #e6edf3;
     width: auto;
-    padding: 0px 6px 4px 0px;
+    padding: 4px 8px;
 }
 
 .dropdown-item:hover,
@@ -89,55 +100,58 @@ footer .nav a:focus-visible {
 .badge-t,
 .badge-e {
     display: inline-block;
-    padding: 0.35em 0.65em;
+    padding: 0.3em 0.6em;
     font-size: 0.75em;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
-    color: #fff;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: var(--bs-border-radius, 0.375rem);
+    border-radius: 4px;
     margin-right: 6px;
 }
 
 .badge {
-    background-color: green;
+    background-color: #12261e;
+    color: #56d364;
+    border: 1px solid #238636;
 }
 
 .badge-u {
-    background-color: grey;
+    background-color: #1c2128;
+    color: #8b949e;
+    border: 1px solid #30363d;
 }
 
 .badge-t {
-    background-color: orangered;
+    background-color: #2a1d15;
+    color: #f0883e;
+    border: 1px solid #9e4b10;
 }
 
 .badge-e {
-    background-color: #0d6efd;
+    background-color: #13233a;
+    color: #8ab4f8;
+    border: 1px solid #385a8c;
 }
 
 .btn {
-    background-color: #0d6efd;
-    color: white;
-    border: 2px solid transparent;
+    background-color: #162238;
+    color: #8ab4f8;
+    border: 1px solid #385a8c;
     border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 .btn:hover {
-    color: rgb(187, 186, 186);
+    color: #ffffff;
     background-color: #213556;
-    border: 2px solid;
-}
-
-.hero p {
-    margin-left: 16px;
+    border: 1px solid #8ab4f8;
 }
 
 .skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .skill-cards,
@@ -145,37 +159,31 @@ footer .nav a:focus-visible {
 .intern-periods {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .skill-cards,
 .intern-periods {
-    gap: 2rem;
+    gap: 1.25rem;
 }
 
 .card {
-    width: 18rem;
-    background-color: #25292e;
-    color: white;
-}
-
-.card-body {
+    width: 21rem;
+    background-color: #161b22;
+    color: #e6edf3;
     border: 1px solid #31373d;
     border-radius: 4px;
 }
 
-.card-text {
-    align-items: flex-start;
+.card-image {
+    max-width: 100%;
+    margin-bottom: 12px;
+    border-radius: 3px;
 }
 
 .project-cards {
-    gap: 1rem;
-    margin-left: 16px;
-}
-
-.card-image {
-    max-width: 100%;
-    margin-bottom: 10px;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
 }
 
 .project-cards .card-body {
@@ -188,20 +196,16 @@ footer .nav a:focus-visible {
     align-self: flex-start;
 }
 
-.intern-periods {
-    padding-left: 16px;
-}
-
 .intern-periods .intern-period-box {
     margin: 0;
-    padding: 0 14px;
+    padding: 8px 16px;
     border: 1px solid #31373d;
     border-radius: 4px;
-    background-color: #25292e;
+    background-color: #161b22;
 }
 
 .intern-periods p {
-    margin: 2px;
+    margin: 2px 0;
 }
 
 .card-body > ul,
@@ -216,35 +220,28 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e6edf3;
 }
 
 .accordion {
     display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
 }
 
 .accordion-item {
-    color: white;
-    background-color: #25292e;
-    border: 0.5px solid #31373d;
-    padding-left: 8px;
-    width: 626px;
+    color: #e6edf3;
+    background-color: #161b22;
+    border: 1px solid #31373d;
+    padding: 4px 12px;
+    width: 100%;
+    max-width: 680px;
 }
 
 .accordion-header {
     padding-top: 4px;
     padding-bottom: 4px;
-}
-
-/* screen < 600px => accordion zal kleiner afgebeeld worden om niet hele scherm in te nemen! */
-@media (max-width: 600px) {
-    .accordion-item {
-        width: 75%;
-    }
 }
 
 footer.navbar {
@@ -253,10 +250,10 @@ footer.navbar {
 
 footer .nav {
     gap: 1rem;
-    border-top: 1px solid #25292e;
+    border-top: 1px solid #31373d;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }

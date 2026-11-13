@@ -50,4 +50,10 @@ As part of the **AI & Automation** track (*Agent Orchestration & Harnessing*), t
 ---
 
 ### To Do
-* 'Projecten & Opdrachten' in carousel (multiple items) format => Flex-start atm
+* Voeg volgende projecten toe aan Carousel:
+  * Halloween Sign-up page
+  * Crossword puzzle
+  * Product page met Tailwind (?)
+  * Animated Browser mockup skill (?)
+  * Vloerlegger applicatie
+  * Examen: Griezelnacht

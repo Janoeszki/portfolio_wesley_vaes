@@ -58,18 +58,19 @@
     const popupImg = document.getElementById('imagePopupImg');
     const popupTitle = document.getElementById('imagePopupTitle');
     const popupCloseBtn = popupModal ? popupModal.querySelector('.image-popup-close') : null;
-    let lastTriggerTitle = null;
+    let lastTriggerCard = null;
 
-    function openImagePopup(titleEl) {
-        if (!popupModal || !popupImg || !popupTitle) return;
-        const card = titleEl.closest('.card');
-        const cardImg = card ? card.querySelector('.card-image') : null;
+    function openImagePopup(card) {
+        if (!popupModal || !popupImg || !popupTitle || !card) return;
+        const cardImg = card.querySelector('.card-image');
+        const titleEl = card.querySelector('.card-title');
         if (!cardImg) return;
 
-        lastTriggerTitle = titleEl;
+        const titleText = titleEl ? titleEl.textContent.trim() : '';
+        lastTriggerCard = card;
         popupImg.src = cardImg.src;
-        popupImg.alt = cardImg.alt || titleEl.textContent.trim();
-        popupTitle.textContent = titleEl.textContent.trim();
+        popupImg.alt = cardImg.alt || titleText;
+        popupTitle.textContent = titleText;
 
         popupModal.classList.add('is-open');
         popupModal.setAttribute('aria-hidden', 'false');
@@ -80,19 +81,23 @@
         if (!popupModal || !popupModal.classList.contains('is-open')) return;
         popupModal.classList.remove('is-open');
         popupModal.setAttribute('aria-hidden', 'true');
-        if (lastTriggerTitle) {
-            lastTriggerTitle.focus();
-            lastTriggerTitle = null;
+        if (lastTriggerCard) {
+            lastTriggerCard.focus();
+            lastTriggerCard = null;
         }
     }
 
     if (popupModal && popupImg && popupTitle) {
-        carousel.querySelectorAll('.card-title').forEach((titleEl) => {
-            titleEl.addEventListener('click', () => openImagePopup(titleEl));
-            titleEl.addEventListener('keydown', (event) => {
+        carousel.querySelectorAll('.card').forEach((card) => {
+            card.addEventListener('click', (event) => {
+                if (event.target.closest('a, button')) return;
+                openImagePopup(card);
+            });
+            card.addEventListener('keydown', (event) => {
+                if (event.target.closest('a, button')) return;
                 if (event.key === 'Enter' || event.key === ' ') {
                     event.preventDefault();
-                    openImagePopup(titleEl);
+                    openImagePopup(card);
                 }
             });
         });

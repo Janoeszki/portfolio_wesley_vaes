@@ -217,6 +217,16 @@ footer .nav a:focus-visible {
     height: 100%;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#carouselMultiple .card:hover,
+#carouselMultiple .card:focus-visible {
+    background-color: #1c2433;
+    border-color: #8ab4f8;
+    box-shadow: inset 0 0 0 1px #8ab4f8;
+    outline: none;
 }
 
 #carouselMultiple .card-body {
@@ -243,17 +253,14 @@ footer .nav a:focus-visible {
 }
 
 #carouselMultiple .card-title {
-    cursor: pointer;
-    width: fit-content;
     color: #ffffff;
     transition: color 0.15s ease;
 }
 
-#carouselMultiple .card-title:hover,
-#carouselMultiple .card-title:focus-visible {
+#carouselMultiple .card:hover .card-title,
+#carouselMultiple .card:focus-visible .card-title {
     color: #8ab4f8;
     text-decoration: underline;
-    outline: none;
 }
 
 #carouselMultiple .btn-primary {

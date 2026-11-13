@@ -25,6 +25,9 @@
    * Accordion-format
       * Styling in accordions for 'Educatie & Traject' section
 
+   * Projecten & Opdrachten
+      * Added cevapi & polestar6 exercises
+
+
 ### To Do
-* 'Projects & Opdrachten' in carousel (multiple items) format => Flex-start atm
-   * Adding additional created projects & assignments to section
+* 'Projecten & Opdrachten' in carousel (multiple items) format => Flex-start atm

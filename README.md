@@ -2,6 +2,8 @@
 
 > Portfolio for intern-requests for the fulltime day education Full Stack & AI Automation Developer at SyntraPXL.
 
+<a href="https://madewithjev.com/free-tools/ai-slop-detector/report/janoeszki.github.io~f362b0"><img src="https://madewithjev.com/free-tools/ai-slop-detector/badge/janoeszki.github.io~f362b0" alt="38% AI slop, checked by Jev" height="20"></a>
+
 ---
 
 ## Tech Stack & Tools

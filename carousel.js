@@ -53,4 +53,64 @@
 
     window.addEventListener('resize', updateCarousel);
     updateCarousel();
+
+    const popupModal = document.getElementById('imagePopupModal');
+    const popupImg = document.getElementById('imagePopupImg');
+    const popupTitle = document.getElementById('imagePopupTitle');
+    const popupCloseBtn = popupModal ? popupModal.querySelector('.image-popup-close') : null;
+    let lastTriggerTitle = null;
+
+    function openImagePopup(titleEl) {
+        if (!popupModal || !popupImg || !popupTitle) return;
+        const card = titleEl.closest('.card');
+        const cardImg = card ? card.querySelector('.card-image') : null;
+        if (!cardImg) return;
+
+        lastTriggerTitle = titleEl;
+        popupImg.src = cardImg.src;
+        popupImg.alt = cardImg.alt || titleEl.textContent.trim();
+        popupTitle.textContent = titleEl.textContent.trim();
+
+        popupModal.classList.add('is-open');
+        popupModal.setAttribute('aria-hidden', 'false');
+        if (popupCloseBtn) popupCloseBtn.focus();
+    }
+
+    function closeImagePopup() {
+        if (!popupModal || !popupModal.classList.contains('is-open')) return;
+        popupModal.classList.remove('is-open');
+        popupModal.setAttribute('aria-hidden', 'true');
+        if (lastTriggerTitle) {
+            lastTriggerTitle.focus();
+            lastTriggerTitle = null;
+        }
+    }
+
+    if (popupModal && popupImg && popupTitle) {
+        carousel.querySelectorAll('.card-title').forEach((titleEl) => {
+            titleEl.addEventListener('click', () => openImagePopup(titleEl));
+            titleEl.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    openImagePopup(titleEl);
+                }
+            });
+        });
+
+        if (popupCloseBtn) {
+            popupCloseBtn.addEventListener('click', closeImagePopup);
+        }
+
+        popupModal.addEventListener('click', (event) => {
+            if (event.target === popupModal) {
+                closeImagePopup();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && popupModal.classList.contains('is-open')) {
+                closeImagePopup();
+            }
+        });
+    }
 })();

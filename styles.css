@@ -98,7 +98,8 @@ footer .nav a:focus-visible {
 .badge,
 .badge-u,
 .badge-t,
-.badge-e {
+.badge-e,
+.badge-rework {
     display: inline-block;
     padding: 0.3em 0.6em;
     font-size: 0.75em;
@@ -133,6 +134,12 @@ footer .nav a:focus-visible {
     background-color: #13233a;
     color: #8ab4f8;
     border: 1px solid #385a8c;
+}
+
+.badge-rework {
+    background-color: #2b0a56;
+    color: #653aca;
+    border: 1px solid #5415e5;
 }
 
 .btn {

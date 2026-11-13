@@ -138,8 +138,10 @@ footer .nav a:focus-visible {
 
 .badge-rework {
     background-color: #2b0a56;
-    color: #653aca;
-    border: 1px solid #5415e5;
+    color: #7040df;
+    border: 1px solid #6327ee;
+    font-size: 0.8rem;
+    margin-right:auto
 }
 
 .btn {

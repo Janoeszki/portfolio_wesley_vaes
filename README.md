@@ -8,7 +8,7 @@
 
 ## Tech Stack & Tools
 
-* **Frontend:** HTML5, CSS3, Bootstrap 5, Font Awesome
+* **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5, Font Awesome
 * **AI & Agent Orchestration:** Multi-Agent Orchestration & Harnessing (Plan/Execute workflow with specialized subagents)
 * **Project Management & Git:** Git Branching Workflow & GitHub Pages
 
@@ -23,7 +23,9 @@
     * Learned that ordering `<link>` tags is important!
   * **Card-format:** Styling in card-format for *'Skills & Tools'* & *'Projecten & Opdrachten'* sections
   * **Accordion-format:** Styling in native `<details>` / `<summary>` accordions for *'Educatie & Traject'* section
-  * **Projecten & Opdrachten:** Added Cevapi & Polestar 6 exercises
+  * **Projecten & Opdrachten (Multi-item Carousel & Image Pop-up):**
+    * Responsive multi-item carousel (`carousel.js`) showcasing *SyntraPXL bal*, *Witch Hunt*, *Polestar6 Pre-Order Website*, and *Dungeon Delver - Chronicles of Phusza*
+    * **Interactive Card & Pop-up Lightbox:** Card thumbnails are hidden inside the cards; hovering or focusing highlights the entire card, and clicking a card opens its project image in a centered pop-up modal (while keeping the project action button independent)
 
 ---
 
@@ -43,6 +45,7 @@ As part of the **AI & Automation** track (*Agent Orchestration & Harnessing*), t
 3. **Key Improvements Delivered**
    * **CSS Deduplication (~34% line reduction in `styles.css`):** Consolidated repeated badge rules (`.badge`, `.badge-u`, `.badge-t`, `.badge-e`), merged duplicate navbar and interactive link hover/focus rules, and removed unused Bootstrap accordion variables and dead selectors.
    * **Semantic & Accessible HTML (`index.html`):** Removed repeated inline `style="width: 18rem;"` attributes, fixed container `<div>` and list (`<ul>`/`<li>`) nesting, resolved duplicate IDs, set `<html lang="nl">`, and added descriptive `alt` text to all images.
+   * **Interactive Project Carousel & Image Lightbox (`carousel.js`, `styles.css`, `index.html`):** Added keyboard-accessible, hover-highlighted project cards that open each project's preview image in a centered modal overlay on click.
 
 ---
 
